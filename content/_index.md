@@ -55,24 +55,16 @@ sections:
       view: card
       columns: '1'
 
-  - block: collection
+  - block: people
+    id: people
     content:
-      title: people
-      subtitle:
-      text:
-      count: 5
+      title: "Our Team"
       filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: people
+      - field: superuser
+        value: true
     design:
       view: card
-      columns: '1'
+      columns: '3'
   
   - block: markdown
     content:
