@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Andrew Hoffman
+title: "Andrew Hoffman"
 
 # Full Name (for SEO)
 first_name: Andrew
@@ -10,7 +10,7 @@ last_name: Hoffman
 superuser: true
 
 # Role/position
-role: Assistant Professor of Earth, Environmental and Planetary Sciences
+role: "Assistant Professor"
 
 # Organizations/Affiliations
 organizations:
@@ -56,15 +56,10 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+#email: ''
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
+summary: "Glaciologist focused on radar observations and modeling of ice sheet change."
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Assistant Professor
 ---
-
-Andrew Hoffman is an assistant professor of earth, enviornmental and planetary sciences at Rice University. His research interests include using novel radar technology and data assimilation methods to understand the physical processes that cause ice-mass loss that contribute either directly or indirectly to sea level rise. He leads the oceans and crysophere group at Rice.
