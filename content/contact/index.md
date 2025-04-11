@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2022-10-24
+date: 2025-04-10
 
 type: landing
 
@@ -20,8 +20,8 @@ sections:
         country: United States
         country_code: US
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
+        latitude: '30.031'
+        longitude: '-95.418'
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 10:00 to 13:00'
@@ -56,7 +56,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: contact.jpg
+          filename: IMG_6933_skiway3.jpg
           filters:
             brightness: 1
           parallax: false
