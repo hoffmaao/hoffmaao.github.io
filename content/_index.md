@@ -9,10 +9,17 @@ sections:
     content:
       title: |
         Oceans and Cryosphere Group
-      image:
-        filename: IMG_0677.JPG
-      text: |
-        <br>
+    text: |
+      <div class="video-background">
+        <iframe src="https://vimeo.com/manage/videos/1074445072?background=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    design:
+      background:
+        color: '#000000'
+        text_color_light: true
+    spacing:
+      padding: ['0', '0', '0', '0']
+
   - block: markdown
     id: about
     content:
