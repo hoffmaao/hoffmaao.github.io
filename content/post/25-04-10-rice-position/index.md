@@ -1,6 +1,8 @@
 ---
 title: Introducing the Oceans, Ice and Climate Group at Rice University
 date: 2025-04-10
+image:
+	focal_point: 'top'
 ---
 
 We are starting an oceans, ice and climate group at Rice University
