@@ -9,34 +9,52 @@ sections:
     id: hero
     content:
       title: ""
-      text: >
-        <div class="video-hero-wrapper">
-          <div style="padding:56% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1074445072?h=91ad82fd50&amp;badge=0&amp;player_id=0&amp;app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-          allow="autoplay; fullscreen"
-          title="EGRIP ground-based UHF radar surveys 2024"></iframe></div>
-          <div class="video-overlay-text">
+      text: |
+        <div class="video-hero-wrapper" style="width: 100%; height: auto; overflow: hidden;">
+          <div style="padding-top: 56.25%; position: relative;">
+            <iframe
+              src="https://player.vimeo.com/video/1074445072?h=91ad82fd50&autoplay=1&loop=1&muted=1&background=1"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              title="EGRIP ground-based UHF radar surveys 2024">
+            </iframe>
           </div>
         </div>
-    design:
-      position: center
-      size: cover
-      text_color_light: true
-      css_class: fullscreen
-      spacing:
-        padding: ["0", "0", "0", "0"]
-
+      design:
+        position: center
+        size: cover
+        text_color_light: true
+        css_class: fullscreen
+        spacing:
+          padding: ["0", "0", "0", "0"]
   - block: markdown
-    id: home
+    id: about
     content:
       title: "About Us"
       text: |
-         We develop new observational and modeling approaches to understand how ice sheets, oceans, and coastal systems evolve in a changing climate. Our research focuses on remote sensing of ice dynamics, radar imaging of englacial structure, and the use of geophysical observations to improve predictions of sea level rise and coastal vulnerability. We combine radar-based measurements, airborne and satellite remote sensing, and high-performance computing with physical modeling and data assimilation to investigate how englacial properties, basal sliding, subglacial hydrology, and ocean driven melt shape glacier change. These tools allow us to address fundamental questions about ice mechanics and grounding zone processes and to understand how changes at the poles are connected to water resources and infrastructure in the communities most affected by sea-level rise.
-
-    design:
-    columns: '1'
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="/images/rice_logo.jpg"
+               alt="Rice R Logo"
+               class="mx-auto d-block"
+               style="height: 240px; width: 240px; object-fit: contain; border-radius: 100%; box-shadow: 0 2px 20px rgba(0,0,0,0.2); margin-bottom: 10px;" />
+            <h3 style="margin: 10px 0;">Oceans and Cryosphere Group</h3>
+            <a href="https://github.com/hoffmaao/hoffmaao.github.io" target="_blank" style="font-size: 1.5rem;">
+            <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <p>
+              We develop new observational and modeling approaches to understand how ice sheets, oceans, and coastal systems evolve in a changing climate. Our research focuses on remote sensing of ice dynamics, radar imaging of englacial structure, and the use of geophysical observations to improve predictions of sea level rise and coastal vulnerability.
+            </p>
+          </div>
+        </div>
     design:
       columns: '1'
-  
+
+
   - block: portfolio
     id: research
     content:
@@ -132,9 +150,9 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact
+      title: Join us
       text: |-
-        Are you an undergraduate student planning to apply to graduate school in the next few years? A graduate student or postdoc looking for postdoc opportunities? Someone who is super interested about polar oceanography, fundamental ice mechanics, or radioglaciology and interested in tackling these questions from observational, modeling, and theoretical perspectives? Reach out!
+        Are you a recent graduate or an undergraduate student planning to apply to graduate school in the next couple of years? A graduate student or postdoc looking for postdoc opportunities? Someone who is super interested about polar oceanography, fundamental ice mechanics, or radioglaciology and interested in tackling these questions from observational, modeling, and theoretical perspectives? Reach out!
       email: aohoffman@ldeo.columbia.edu
       phone: 509 540 4877
       address:
