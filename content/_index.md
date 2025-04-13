@@ -55,19 +55,34 @@ sections:
       columns: '1'
 
 
-  - block: portfolio
+  - block: markdown
     id: research
     content:
-      title: "Research Projects"
-      filters:
-        folders:
-          - research
-      sort_by: 'Date'
-      sort_ascending: false
+      title: "Research Areas"
+      text: |
+        <div style="position: relative; width: 100%; max-width: 1200px; margin: auto;">
+          <img src="/images/research_approach_Rice_website.jpg" alt="Research overview diagram"
+               style="width: 100%; height: auto; border-radius: 10px;" />
+
+          <!-- Example Overlay Links -->
+          <a href="/projects/ice-ocean/" style="position: absolute; top: 82%; left: 76%; transform: translate(-50%, -50%);
+              padding: 5px 10px; background-color: rgba(0,0,0,0.6); color: white; text-decoration: none; border-radius: 6px;">
+            Ice–Ocean Interactions
+          </a>
+
+          <a href="/projects/sea-level/" style="position: absolute; top: 4%; left: 65%; transform: translate(-50%, -50%);
+              padding: 5px 10px; background-color: rgba(0,0,0,0.6); color: white; text-decoration: none; border-radius: 6px;">
+            Sea-Level Monitoring
+          </a>
+
+          <a href="/projects/radar/" style="position: absolute; top: 15%; left: 6%; transform: translate(-50%, -50%);
+              padding: 5px 10px; background-color: rgba(0,0,0,0.6); color: white; text-decoration: none; border-radius: 6px;">
+            Radar & Remote Sensing
+          </a>
+        </div>
     design:
-      view: showcase
       columns: '1'
-        
+          
   
   - block: collection
     id: post
