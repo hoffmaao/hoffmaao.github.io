@@ -104,27 +104,17 @@ sections:
       view: card
       columns: '1'
 
-  - block: markdown
+  - block: people
     id: people
     content:
-      title: "Team Members"
-      text: |
-        <div class="row justify-content-center text-center">
-
-          <div class="col-6 col-sm-4 col-md-3 mb-4">
-            <a href="/authors/andrew_hoffman/">
-              <img src="/authors/andrew_hoffman/avatar.jpg" alt="Andrew Hoffman"
-                   class="rounded-circle shadow" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 10px;" />
-              <h5 class="mt-2 mb-0">Andrew Hoffman</h5>
-              <p class="text-muted small">Assistant Professor</p>
-            </a>
-          </div>
-
-          <!-- Add more team members here -->
-
-        </div>
-    design:
-      columns: '1'
+      title: "Our Team"
+      filters:
+        folders:
+          - authors
+      design:
+        view: card
+        columns: '3'
+      
   - block: markdown
     id: fieldwork
     content:
