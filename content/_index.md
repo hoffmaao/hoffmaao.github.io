@@ -104,33 +104,52 @@ sections:
       view: card
       columns: '1'
 
-  - block: people
+  - block: markdown
     id: people
     content:
-      title: "Our Team"
-      text: ""
-      filters:
-        folders:
-          - authors
+      title: "Team Members"
+      text: |
+        <div class="row justify-content-center text-center">
+
+          <div class="col-6 col-sm-4 col-md-3 mb-4">
+            <a href="/authors/andrew_hoffman/">
+              <img src="/authors/andrew_hoffman/avatar.jpg" alt="Andrew Hoffman"
+                   class="rounded-circle shadow" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 10px;" />
+              <h5 class="mt-2 mb-0">Andrew Hoffman</h5>
+              <p class="text-muted small">Assistant Professor</p>
+            </a>
+          </div>
+
+          <!-- Add more team members here -->
+
+        </div>
     design:
-      view: card
-      columns: '3'
-
-
-
+      columns: '1'
   - block: markdown
     id: fieldwork
     content:
       title: "Fieldwork"
       text: |
-         We develop new observational and modeling approaches to understand how ice sheets, oceans, and coastal systems evolve in a changing climate. Our research focuses on remote sensing of ice dynamics, radar imaging of englacial structure, and the use of geophysical observations to improve predictions of sea level rise and coastal vulnerability. We combine radar-based measurements, airborne and satellite remote sensing, and high-performance computing with physical modeling and data assimilation to investigate how englacial properties, basal sliding, subglacial hydrology, and ocean driven melt shape glacier change. These tools allow us to address fundamental questions about ice mechanics and grounding zone processes and to understand how changes at the poles are connected to water resources and infrastructure in the communities most affected by sea-level rise.
+        Our field campaigns span polar ice sheets and coastal urban environments to investigate how ice, ocean, and infrastructure systems evolve in a changing climate.
 
-    design:
-    columns: '1'
+        Much of our work focuses on the deployment of airborne and ground-basedradar systems to map englacial structure, measure vertical ice motion, and image subglacial topography near grounding lines. We work in remote regions of Antarctica and Greenland, including the margins of the ice sheet where ice interacts with the ocean.
+
+        Our team has also begun deploying terrestrial radar interferometers, GNSS instruments, and satellite-linked sensors in coastal regions of the U.S. to monitor infrastructure stress, subsidence, and sea-level rise.
+
+        We believe fieldwork is a place of shared exploration, creativity, and learning. Our group is committed to inclusive field practices and ensuring early-career researchers are supported as leaders in the field.
+
+        ### Current & Recent Field Sites
+        - **EGRIP, Greenland** – Vertical ice velocity and radar calibration
+        - **Amundsen Sea Embayment, Antarctica** – Swath radar mapping of subglacial topography
+        - **Beardmore Glacier, Antarctica** – Ground-based ApRES surveys and englacial reflectivity analysis
+        - **Gulf Coast, Texas** – Terrestrial radar interferometry for dam and levee monitoring
+
+        <br>
+
+        
     design:
       columns: '1'
-    design:
-      view: card
+
   
   - block: markdown
     content:
@@ -204,25 +223,5 @@ sections:
           captcha: false
     design:
       columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: IMG_6933_skiway3.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['0px', '0', '0px', '0']
-      css_class: fullscreen
 
 ---
