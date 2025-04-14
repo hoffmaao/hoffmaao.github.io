@@ -108,12 +108,16 @@ sections:
     id: people
     content:
       title: "Our Team"
-      filters:
-        folders:
-          - authors
-      design:
-        view: card
-        columns: '3'
+      user_groups:
+        - Faculty
+        - Grad Students
+        - Alumni
+    design:
+      show_interests: false
+      show_role: true
+      show_social: true
+      view: card
+      columns: "3"
       
   - block: markdown
     id: fieldwork
