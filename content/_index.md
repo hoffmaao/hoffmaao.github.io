@@ -170,16 +170,19 @@ sections:
     content:
       title: Recent Publications
       text: ""
-      count: 5
+      count: 10  # or however many you'd like to show
+      filters:
+        page_type: publication
     design:
       view: citation
-      columns: '1'
+      columns: "1"
+
 
   - block: contact
     id: contact
     content:
       title: Join us
-      text: |-
+      text: |
         Are you a recent graduate or an undergraduate student planning to apply to graduate school in the next couple of years? A graduate student or postdoc looking for postdoc opportunities? Someone who is super interested about polar oceanography, fundamental ice mechanics, or radioglaciology and interested in tackling these questions from observational, modeling, and theoretical perspectives? Reach out!
       email: aohoffman@ldeo.columbia.edu
       phone: 509 540 4877

@@ -43,3 +43,8 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.navbar-nav .nav-link:hover {
+  color: #00205B !important; /* Light blue or pick a color you like */
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}

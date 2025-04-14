@@ -42,7 +42,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2025-04-11T04:31:32.081441Z'
+publishDate: '2025-04-14T05:33:13.006397Z'
 publication_types:
 - '2'
 abstract: Abstract Hercules Dome is a prospective ice-core site due to its setting
