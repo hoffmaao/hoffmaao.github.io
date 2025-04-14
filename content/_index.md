@@ -168,14 +168,14 @@ sections:
   - block: collection
     id: publication
     content:
-      title: "Recent Publications"
+      title: Recent Publications
       count: 5
       filters:
-        folders: 
-    page_type: publication
+        folders:
+          - publication
     design:
       view: citation
-      columns: "1"
+      columns: '1'
 
   - block: contact
     id: contact
