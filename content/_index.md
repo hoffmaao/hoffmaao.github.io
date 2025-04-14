@@ -171,7 +171,8 @@ sections:
       title: "Recent Publications"
       count: 5
       filters:
-        page_type: publication
+        folders: 
+    page_type: publication
     design:
       view: citation
       columns: "1"
