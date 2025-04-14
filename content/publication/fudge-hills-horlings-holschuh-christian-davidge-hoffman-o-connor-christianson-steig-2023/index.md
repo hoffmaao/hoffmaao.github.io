@@ -43,4 +43,5 @@ publication_types:
 abstract: ''
 publication: '*Journal of Glaciology*'
 doi: 10.1017/jog.2022.80
+page_type: publication
 ---

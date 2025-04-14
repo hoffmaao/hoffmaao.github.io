@@ -168,16 +168,14 @@ sections:
   - block: collection
     id: publication
     content:
-      title: Recent Publications
-      text: ""
-      count: 10  # or however many you'd like to show
+      title: "Recent Publications"
+      count: 5
       filters:
         page_type: publication
     design:
       view: citation
       columns: "1"
-
-
+      
   - block: contact
     id: contact
     content:

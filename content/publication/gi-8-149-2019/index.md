@@ -39,4 +39,5 @@ doi: 10.5194/gi-8-149-2019
 links:
 - name: URL
   url: https://gi.copernicus.org/articles/8/149/2019/
+page_type: publication
 ---

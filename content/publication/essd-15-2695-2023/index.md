@@ -120,4 +120,5 @@ doi: 10.5194/essd-15-2695-2023
 links:
 - name: URL
   url: https://essd.copernicus.org/articles/15/2695/2023/
+page_type: publication
 ---

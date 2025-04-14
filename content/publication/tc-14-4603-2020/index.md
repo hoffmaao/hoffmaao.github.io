@@ -41,4 +41,5 @@ doi: 10.5194/tc-14-4603-2020
 links:
 - name: URL
   url: https://tc.copernicus.org/articles/14/4603/2020/
+page_type: publication
 ---

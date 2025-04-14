@@ -35,10 +35,9 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2025-04-14T05:33:12.719409Z'
-publication_types:
-- '1'
 abstract: ''
 publication: '*2022 IEEE International Symposium on Phased Array Systems & Technology
   (PAST)*'
 doi: 10.1109/PAST49659.2022.9974985
+page_type: publication
 ---

@@ -39,4 +39,5 @@ doi: 10.5194/gmd-14-4593-2021
 links:
 - name: URL
   url: https://gmd.copernicus.org/articles/14/4593/2021/
+page_type: publication
 ---

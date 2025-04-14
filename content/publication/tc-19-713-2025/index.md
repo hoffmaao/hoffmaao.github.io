@@ -41,4 +41,5 @@ doi: 10.5194/tc-19-713-2025
 links:
 - name: URL
   url: https://tc.copernicus.org/articles/19/713/2025/
+page_type: publication
 ---

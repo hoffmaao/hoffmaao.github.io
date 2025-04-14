@@ -65,4 +65,5 @@ doi: https://doi.org/10.1029/2021GL096218
 links:
 - name: URL
   url: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021GL096218
+page_type: publication
 ---

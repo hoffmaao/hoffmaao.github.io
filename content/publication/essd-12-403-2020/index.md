@@ -46,4 +46,5 @@ doi: 10.5194/essd-12-403-2020
 links:
 - name: URL
   url: https://essd.copernicus.org/articles/12/403/2020/
+page_type: publication
 ---

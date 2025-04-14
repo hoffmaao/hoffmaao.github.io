@@ -45,4 +45,5 @@ doi: 10.5194/tc-17-865-2023
 links:
 - name: URL
   url: https://tc.copernicus.org/articles/17/865/2023/
+page_type: publication
 ---
