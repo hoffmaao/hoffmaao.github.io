@@ -30,7 +30,7 @@ sections:
         spacing:
           padding: ["0", "0", "0", "0"]
   - block: markdown
-    id: about
+    id: home
     content:
       title: "About Us"
       text: |
@@ -175,15 +175,14 @@ sections:
     design:
       view: citation
       columns: "1"
-      
+
   - block: contact
     id: contact
     content:
-      title: Join us
+      title: Join us!
       text: |
         Are you a recent graduate or an undergraduate student planning to apply to graduate school in the next couple of years? A graduate student or postdoc looking for postdoc opportunities? Someone who is super interested about polar oceanography, fundamental ice mechanics, or radioglaciology and interested in tackling these questions from observational, modeling, and theoretical perspectives? Reach out!
       email: aohoffman@ldeo.columbia.edu
-      phone: 509 540 4877
       address:
         street: 6100 Main St.
         city: Houston
@@ -202,7 +201,7 @@ sections:
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
-      #    name: Discuss on Forum
+      #    name: Discusspage_type: page  # ✅ This is key!
       #    link: 'https://discourse.gohugo.io'
     
       # Automatically link email and phone or display as text?
