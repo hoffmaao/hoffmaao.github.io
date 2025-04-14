@@ -7,3 +7,12 @@
 .cta-group {
   justify-content: center;
 }
+
+a:hover,
+.navbar-nav .nav-link:hover,
+.icon:hover,
+svg:hover,
+.footer a:hover {
+  color: #00205B !important;
+  transition: color 0.2s ease-in-out;
+}
