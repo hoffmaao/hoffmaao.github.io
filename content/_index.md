@@ -118,7 +118,7 @@ sections:
       show_social: true
       view: card
       columns: "3"
-      
+
   - block: markdown
     id: fieldwork
     content:
