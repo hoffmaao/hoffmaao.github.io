@@ -35,7 +35,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2025-04-14T05:33:12.907084Z'
+publishDate: '2025-04-11T04:31:31.996807Z'
 publication_types:
 - '2'
 abstract: ''
@@ -44,5 +44,4 @@ doi: 10.5194/tc-19-1353-2025
 links:
 - name: URL
   url: https://tc.copernicus.org/articles/19/1353/2025/
-page_type: publication
 ---

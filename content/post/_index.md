@@ -8,5 +8,4 @@ view: compact
 banner:
   caption: ''
   image: ''
-page_type: page
 ---

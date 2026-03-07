@@ -1,0 +1,88 @@
+{{ $custom_css := resources.Get "css/custom.css" | minify | fingerprint "md5" }}
+<link rel="stylesheet" href="{{ $custom_css.RelPermalink }}">
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Ensure About nav link is active on homepage
+  if (window.location.pathname === '/' || window.location.pathname === '') {
+    setTimeout(function () {
+      document.querySelectorAll('#navbar-main .nav-link').forEach(function (link) {
+        var href = link.getAttribute('href');
+        if (href === '/' || href === '') {
+          link.classList.add('active');
+        }
+      });
+    }, 50);
+
+    // Growing text interaction
+    document.querySelectorAll('#growing-text [data-o]').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        var id = this.getAttribute('data-o');
+        // Reveal expansion blocks
+        document.querySelectorAll('#growing-text [data-ob="' + id + '"]').forEach(function(el) {
+          el.classList.add('gt-visible');
+        });
+        // Change a previous element's text if specified
+        var prevPId = this.getAttribute('data-prev-p');
+        var prevText = this.getAttribute('data-prev-text');
+        if (prevPId !== null) {
+          var prevEl = document.getElementById(prevPId);
+          if (prevEl) prevEl.textContent = prevText !== null ? prevText : '';
+        }
+        // Optionally mutate a nearby element's text
+        var selfPId = this.getAttribute('data-self-p');
+        var selfText = this.getAttribute('data-self-text');
+        if (selfPId) {
+          var selfEl = document.getElementById(selfPId);
+          if (selfEl) selfEl.textContent = selfText !== null ? selfText : '';
+        }
+        // Resolve the link: data-own-text overrides the default child-unwrap
+        var ownText = this.getAttribute('data-own-text');
+        var parent = this.parentNode;
+        if (ownText !== null) {
+          // Replace link with specified text (empty string = remove entirely)
+          if (ownText) parent.insertBefore(document.createTextNode(ownText), this);
+          parent.removeChild(this);
+        } else {
+          // Default: unwrap children to plain text
+          var frag = document.createDocumentFragment();
+          while (this.firstChild) frag.appendChild(this.firstChild);
+          parent.insertBefore(frag, this);
+          parent.removeChild(this);
+        }
+      });
+    });
+
+    // Toggle text mechanic (infinite swap between current text and data-toggle-alt)
+    document.querySelectorAll('#growing-text [data-toggle-alt]').forEach(function(el) {
+      el.addEventListener('click', function(e) {
+        e.preventDefault();
+        var alt = this.getAttribute('data-toggle-alt');
+        this.setAttribute('data-toggle-alt', this.textContent);
+        this.textContent = alt;
+      });
+    });
+
+    // Dynamic age
+    var birth = new Date('1994-02-16');
+    var now = new Date();
+    var age = now.getFullYear() - birth.getFullYear();
+    if (now.getMonth() < birth.getMonth() ||
+       (now.getMonth() === birth.getMonth() && now.getDate() < birth.getDate())) {
+      age--;
+    }
+    var ageEl = document.getElementById('my-age');
+    if (ageEl) ageEl.textContent = age;
+
+    // Houston weather via wttr.in (no API key required)
+    fetch('https://wttr.in/Houston,Texas?format=%C')
+      .then(function(r) { return r.text(); })
+      .then(function(c) {
+        var el = document.getElementById('weather-condition');
+        if (el && c.trim()) el.textContent = c.trim().toLowerCase();
+      })
+      .catch(function() { /* silently keep default if unavailable */ });
+  }
+});
+</script>

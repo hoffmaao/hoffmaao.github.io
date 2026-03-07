@@ -1,4 +1,5 @@
 # SITE SETUP
+i_am_a_sponsor: true
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
@@ -6,10 +7,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
+  theme_day: custom
   theme_night:
-  font: inter
-  font_size: L
+  font: custom
+  font_size: M
 
 # SEO
 
@@ -37,8 +38,8 @@ header:
     align: r
     show_logo: true
     show_language: false
-    show_day_night: true
-    show_search: true
+    show_day_night: false
+    show_search: false
     highlight_active_link: true
 
 # Site footer
@@ -46,12 +47,8 @@ header:
 footer:
   copyright:
     notice: '© {year} Andrew Hoffman'
-    custom_text: ""
     license:
       enable: false
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
 
 # Localization
 

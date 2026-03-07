@@ -1,222 +1,35 @@
 ---
-# Leave the homepage title empty to use the site title
 title:
 date: 2025-04-10
 type: landing
 
 sections:
   - block: markdown
-    id: hero
+    id: about
     content:
       title: ""
       text: |
-        <div class="video-hero-wrapper" style="width: 100%; height: auto; overflow: hidden;">
-          <div style="padding-top: 56.25%; position: relative;">
-            <iframe
-              src="https://player.vimeo.com/video/1074445072?h=91ad82fd50&autoplay=1&loop=1&muted=1&background=1"
-              frameborder="0"
-              allow="autoplay; fullscreen"
-              allowfullscreen
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-              title="EGRIP ground-based UHF radar surveys 2024">
-            </iframe>
-          </div>
-        </div>
-      design:
-        position: center
-        size: cover
-        text_color_light: true
-        css_class: fullscreen
-        spacing:
-          padding: ["0", "0", "0", "0"]
-  - block: markdown
-    id: home
-    content:
-      title: "About Us"
-      text: |
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <img src="/images/rice_logo.jpg"
-               alt="Rice R Logo"
-               class="mx-auto d-block"
-               style="height: 240px; width: 240px; object-fit: contain; border-radius: 100%; box-shadow: 0 2px 20px rgba(0,0,0,0.2); margin-bottom: 10px;" />
-            <h3 style="margin: 10px 0;">Oceans and Cryosphere Group</h3>
-            <a href="https://github.com/hoffmaao/hoffmaao.github.io" target="_blank" style="font-size: 1.5rem;">
-            <i class="fab fa-github" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-md-8">
-            <p>
-              We develop new observational and modeling approaches to understand how ice sheets, oceans, and coastal systems evolve in a changing climate. Our research focuses on remote sensing of ice dynamics, radar imaging of englacial structure, and the use of geophysical observations to improve predictions of sea level rise and coastal vulnerability.
+        <div class="about-row">
+          <div class="about-photo">
+            <img src="media/avatar.jpg" alt="Andrew Hoffman">
+            <p class="about-links">
+              <a href="mailto:ah301@rice.edu" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              <a href="https://github.com/hoffmaao" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://scholar.google.com/citations?user=jf4jwlMAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
             </p>
           </div>
+          <div class="about-bio">
+            <div id="growing-text">
+              <p id="gt-p-1"><a data-o="hello">Hello!</a><span data-ob="hello"> How are you <a data-o="h1">doing</a>?</span><span data-ob="h1"> I hope the words on this page find you <a data-o="h2">well.</a></span><span data-ob="h2"> Maybe they find you <a data-o="h3">calm.</a></span><span data-ob="h3"> Maybe they find you on a <a data-o="h4">beach.</a></span><span data-ob="h4"> Maybe they find you far from <a data-o="h5" data-self-p="home-punct" data-self-text=",">home</a><span id="home-punct">.</span><span data-ob="h5"> <a data-toggle-alt="and">or</a> in <a data-o="h6">bed</a>.</span></span><span data-ob="h6"> Maybe they find you with your <a data-o="h7">eyes partially closed</a>.</span><span data-ob="h7"> Maybe you should take a <a data-o="h8">break.</a></span><span data-ob="h8"> Maybe we should all take a <a data-o="h9">break.</a></span><span data-ob="h9"> Maybe this <a data-o="h9b" data-self-p="h9-end" data-self-text="you, but if it did, welcome.">page</a> never finds <span id="h9-end">you.</span></span></p>
+              <p id="gt-p-2">My name is <a data-o="andrew">Andrew.</a><span data-ob="andrew"> I <a data-o="a4">am</a> <span id="my-age">32</span> years <a data-o="a1">old.</a></span><span data-ob="a1"> <a data-o="a2">Unless</a> I'm not.</span><span data-ob="a2"> There is a snippet of code which calculates my <a data-o="a2a" data-self-p="age-punct" data-self-text=",">age</a><span id="age-punct">.</span><span data-ob="a2a"> but it has no way of <a data-o="a3">knowing</a> if I am still alive.</span></span><span data-ob="a3"> It just <em><a data-o="a3a" data-own-text="" data-self-p="pres-punct" data-self-text="">presumes</a></em><span id="pres-punct">.</span><span data-ob="a3a"><a data-o="a3b" data-own-text="hopes" data-self-p="hopes-punct" data-self-text=",">hopes</a><span id="hopes-punct">.</span><span data-ob="a3b"> as I <a data-o="a3c" data-self-p="hope-punct" data-self-text=",">hope</a><span id="hope-punct">.</span><span data-ob="a3c"> and maybe you hope too?</span></span></span></span></p>
+              <p data-ob="a4">I grew up in <a data-o="ww1">Walla Walla</a>, Washington<span data-ob="ww1"> — a small town in Eastern Washington, sixty miles southeast of the <a data-o="ww2">Columbia River</a>.</span><span data-ob="ww2"> The Channeled Scablands, coulees, and exposed basalt are remnants of large outburst floods from the deglaciation of the <a data-o="ww3">Laurentide ice sheet</a>.</span><span data-ob="ww3"> I've lived my whole life between places that are glaciated, deglaciated, or flood prone.</span></p>
+              <p id="gt-p-3">I am an Assistant Professor of Earth, Environmental and Planetary Sciences at <a data-o="prof">Rice University</a>.<span data-ob="prof"> Rice is located in <a data-o="p-houston">Houston, Texas</a>.</span><span data-ob="p-houston"> It's <a data-o="p1" id="weather-condition" data-self-p="today-punct" data-self-text=",">sunny</a> here today<span id="today-punct">.</span></span><span data-ob="p1"> according to a forecast from a model developed by <a data-o="p2">NCAR</a>.</span><span data-ob="p2"> <a data-o="p3" data-own-text="Like most people," data-self-p="ncar-tail" data-self-text=" I use models maintained and developed by NCAR to plan my life around our planet's weather.">Like many Earth-system scientists,</a><span id="ncar-tail"> I use models maintained and developed by NCAR in my work.</span></span></p>
+              <p id="gt-p-4">I study <a data-o="ice">ice sheets.</a><span data-ob="ice"> In my work, I ask questions like: How much and how fast will ice sheets contribute to sea level in the <a data-o="i1">next century</a>?</span><span data-ob="i1"> What drives <a data-o="i2">ice shelf melt</a>?</span><span data-ob="i2"> How does ice <a data-o="i3">deform and fracture</a>?</span><span data-ob="i3"> How do <a data-o="i4">glaciers slide</a>?</span><span data-ob="i4"> How does the solid earth affect <a data-o="i5">glacier flow</a>?</span><span data-ob="i5"> And how have <a data-o="i6">ice-sheets and oceans changed</a> in Earth's history?</span><span data-ob="i6"> Most of the time, I do this work <span id="ag-prefix">in </span><a data-o="i7" data-own-text="" data-self-p="ag-prefix" data-self-text="on computers that simulate glaciers in ">Antarctica and Greenland</a><span data-ob="i7"><a data-o="i7-ag">Antarctica and Greenland</a></span>.</span><span data-ob="i7-ag"> Sometimes I also think about <a data-o="i-mars">Mars</a>, which also has large ice caps.</span><span data-ob="i-mars"> To investigate these questions, I use <a data-o="i7a" data-self-p="i7a-dot" data-self-text=",">satellite geodesy and altimetry</a><span id="i7a-dot">.</span></span><span data-ob="i7a"> <span id="i7b-pre">and </span><a data-o="i7b" data-own-text="groundbased and airborne geophysics," data-prev-p="i7b-dot" data-prev-text="" data-self-p="i7b-pre" data-self-text="">groundbased and airborne geophysics</a><span id="i7b-dot">.</span></span><span data-ob="i7b"> <span id="i7c-pre">and </span><a data-o="i7c" data-own-text="orbital radar sounders," data-prev-p="i7c-dot" data-prev-text="" data-self-p="i7c-pre" data-self-text="">orbital radar sounders</a><span id="i7c-dot">.</span></span><span data-ob="i7c"> <span id="i7d-pre">and </span><a data-o="i7d" data-own-text="ocean hydrographic observations," data-prev-p="i7d-dot" data-prev-text="" data-self-p="i7d-pre" data-self-text="">ocean hydrographic observations</a><span id="i7d-dot">.</span></span><span data-ob="i7d"> <span id="i7e-pre">and </span><a data-o="i7e" data-self-p="i7e-pre" data-self-text="">models of ice flow and ocean circulation</a>.</span></p>
+              <p data-ob="i7e">I am also the director for <a data-o="sl1" data-self-p="sl1-dot" data-self-text=",">Shifting Land, Rising Seas</a><span id="sl1-dot">.</span><span data-ob="sl1"> an interdisciplinary NASEM project that improves Gulf Coast <a data-o="sl2" data-self-p="sl2-dot" data-self-text="">sea-level projections</a><span id="sl2-dot">.</span></span><span data-ob="sl2"> by explicitly monitoring and modeling vertical land motion from sediment loading and compaction, groundwater and hydrocarbon withdrawal, and <a data-o="sl3">glacial isostatic adjustment</a>.</span><span data-ob="sl3"> We then turn these projections into tools that help people plan for what's coming.</span></p>
+              <p id="gt-p-5">I also make <a data-o="art">art.</a><span data-ob="art"> I am a member of <span id="art-collective">the art-science collective </span><a data-o="art1" data-own-text="Glacial Hauntologies" data-prev-p="art-collective" data-prev-text="" data-self-p="art1-punct" data-self-text="">Glacial Hauntologies</a><span id="art1-punct">.</span><span data-ob="art1"> – an interdisciplinary collaboration exploring how <a data-o="art2">ice</a><span data-ob="art2"> –past ice, current melt, and future glacial change–</span> reoccurs as a persistent hauntology across 20th and 21st century <a data-o="art3" data-self-p="list-punct" data-self-text=",">landscapes</a><span id="list-punct">.</span><span data-ob="art3"> <span id="art3-pre">and </span><a data-o="art4" data-own-text="scientific research," data-prev-p="art3-dot" data-prev-text="" data-self-p="art3-pre" data-self-text="">scientific research</a><span id="art3-dot">.</span><span data-ob="art4"> <span id="art4-pre">and </span><a data-o="art5" data-own-text="media," data-prev-p="art4-dot" data-prev-text="" data-self-p="art4-pre" data-self-text="">media</a><span id="art4-dot">.</span><span data-ob="art5"> <span id="art5-pre">and </span><a data-o="art6">day-to-day life</a>.<span data-ob="art6"> <span id="art6-intro">We </span><a data-o="art-iw" data-own-text="Interweaving glaciology with artistic practice across print, sound, textile, movement, fieldwork, and physics, we translate, subvert and repurpose tools from many disciplines to explore geophysical data, glaciological archives, and alternate ways of relating to " data-self-p="art6-tail" data-self-text="" data-prev-p="art6-intro" data-prev-text="">interweave</a><span id="art6-tail"> glaciology and artistic practices across print, sound, textile, movement, fieldwork and physics.</span><span data-ob="art-iw"><a data-o="art13">glaciers</a>.<span data-ob="art13"> <a data-toggle-alt="Our">My</a> work is attentive to process, context, relationships, and how people understand themselves within a project.</span></span></span></p>
+            </div>
+          </div>
         </div>
     design:
       columns: '1'
-
-
-  - block: markdown
-    id: research
-    content:
-      title: "Research Areas"
-      text: |
-        <div style="position: relative; width: 100%; max-width: 1200px; margin: auto;">
-          <img src="/images/research_approach_Rice_website.jpg" alt="Research overview diagram"
-               style="width: 100%; height: auto; border-radius: 10px;" />
-
-          <!-- Example Overlay Links -->
-          <a href="/projects/ice-ocean/" style="position: absolute; top: 82%; left: 76%; transform: translate(-50%, -50%);
-              padding: 5px 10px; background-color: rgba(0,0,0,0.6); color: white; text-decoration: none; border-radius: 6px;">
-            Ice–Ocean Interactions
-          </a>
-
-          <a href="/projects/sea-level/" style="position: absolute; top: 4%; left: 65%; transform: translate(-50%, -50%);
-              padding: 5px 10px; background-color: rgba(0,0,0,0.6); color: white; text-decoration: none; border-radius: 6px;">
-            Sea-Level Monitoring
-          </a>
-
-          <a href="/projects/radar/" style="position: absolute; top: 15%; left: 6%; transform: translate(-50%, -50%);
-              padding: 5px 10px; background-color: rgba(0,0,0,0.6); color: white; text-decoration: none; border-radius: 6px;">
-            Radar & Remote Sensing
-          </a>
-        </div>
-    design:
-      columns: '1'
-          
-  
-  - block: collection
-    id: post
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-
-  - block: people
-    id: people
-    content:
-      title: "Our Team"
-      user_groups:
-        - Faculty
-        - Grad Students
-        - Alumni
-    design:
-      show_interests: false
-      show_role: true
-      show_social: true
-      view: card
-      columns: "3"
-
-  - block: markdown
-    id: fieldwork
-    content:
-      title: "Fieldwork"
-      text: |
-        Our field campaigns span polar ice sheets and coastal urban environments to investigate how ice, ocean, and infrastructure systems evolve in a changing climate.
-
-        Much of our work focuses on the deployment of airborne and ground-basedradar systems to map englacial structure, measure vertical ice motion, and image subglacial topography near grounding lines. We work in remote regions of Antarctica and Greenland, including the margins of the ice sheet where ice interacts with the ocean.
-
-        Our team has also begun deploying terrestrial radar interferometers, GNSS instruments, and satellite-linked sensors in coastal regions of the U.S. to monitor infrastructure stress, subsidence, and sea-level rise.
-
-        We believe fieldwork is a place of shared exploration, creativity, and learning. Our group is committed to inclusive field practices and ensuring early-career researchers are supported as leaders in the field.
-
-        ### Current & Recent Field Sites
-        - **EGRIP, Greenland** – Vertical ice velocity and radar calibration
-        - **Amundsen Sea Embayment, Antarctica** – Swath radar mapping of subglacial topography
-        - **Beardmore Glacier, Antarctica** – Ground-based ApRES surveys and englacial reflectivity analysis
-        - **Gulf Coast, Texas** – Terrestrial radar interferometry for dam and levee monitoring
-
-        <br>
-
-        
-    design:
-      columns: '1'
-
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: IMG_0733_andrew_driving_vhf.JPG
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    id: publication
-    content:
-      title: Recent Publications
-      count: 5
-      filters:
-        folders:
-          - publication
-    design:
-      view: citation
-      columns: '1'
-
-  - block: contact
-    id: contact
-    content:
-      title: Join us!
-      text: |
-        Are you a recent graduate or an undergraduate student planning to apply to graduate school in the next couple of years? A graduate student or postdoc looking for postdoc opportunities? Someone who is super interested about polar oceanography, fundamental ice mechanics, or radioglaciology and interested in tackling these questions from observational, modeling, and theoretical perspectives? Reach out!
-      email: aohoffman@ldeo.columbia.edu
-      address:
-        street: 6100 Main St.
-        city: Houston
-        region: TX
-        postcode: '77005'
-        country: United States
-        country_code: US
-      coordinates:
-        latitude: '29.719370342775083'
-        longitude: '-95.40227869879237'
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discusspage_type: page  # ✅ This is key!
-      #    link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
-      autolink: true
-    
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
-    design:
-      columns: '1'
-
 ---

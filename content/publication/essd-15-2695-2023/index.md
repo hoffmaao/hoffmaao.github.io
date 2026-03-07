@@ -111,7 +111,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2025-04-14T05:33:11.851648Z'
+publishDate: '2025-04-11T04:31:31.063187Z'
 publication_types:
 - '2'
 abstract: ''
@@ -120,5 +120,4 @@ doi: 10.5194/essd-15-2695-2023
 links:
 - name: URL
   url: https://essd.copernicus.org/articles/15/2695/2023/
-page_type: publication
 ---
