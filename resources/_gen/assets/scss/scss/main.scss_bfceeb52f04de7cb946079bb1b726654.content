@@ -9741,6 +9741,9 @@ div.chart {
   margin-bottom: 1rem;
   overflow-x: auto; }
 
+#weather-condition {
+  font-style: italic; }
+
 .universal-wrapper h1 {
   text-align: center; }
 
