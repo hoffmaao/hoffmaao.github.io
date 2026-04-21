@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antarctica | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/tag/antarctica/</link>
+      <atom:link href="http://localhost:1313/tag/antarctica/index.xml" rel="self" type="application/rss+xml" />
+    <description>Antarctica</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>Antarctica</title>
+      <link>http://localhost:1313/tag/antarctica/</link>
+    </image>
+    
+    <item>
+      <title>Ice–Ocean Interactions</title>
+      <link>http://localhost:1313/projects/ice-ocean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ice-ocean/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;What systems you focus on (e.g., Thwaites, Amundsen Sea, Greenland fjords)&lt;/li&gt;
+&lt;li&gt;Key tools (swath radar, ocean moorings, coupled models)&lt;/li&gt;
+&lt;li&gt;Big questions (stability of grounding lines, feedbacks with circulation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also embed images, figures, or videos here in standard Markdown or HTML.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

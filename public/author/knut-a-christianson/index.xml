@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knut a Christianson | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/author/knut-a-christianson/</link>
+      <atom:link href="http://localhost:1313/author/knut-a-christianson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Knut a Christianson</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>Knut a Christianson</title>
+      <link>http://localhost:1313/author/knut-a-christianson/</link>
+    </image>
+    
+    <item>
+      <title>Joint Estimation of Ice Sheet Vertical Velocity and Englacial Layer Geometry from Multipass Synthetic Aperture Radar Data</title>
+      <link>http://localhost:1313/publication/9974985/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/9974985/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew O. Hoffman | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/author/andrew-o.-hoffman/</link>
+      <atom:link href="http://localhost:1313/author/andrew-o.-hoffman/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrew O. Hoffman</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>Andrew O. Hoffman</title>
+      <link>http://localhost:1313/author/andrew-o.-hoffman/</link>
+    </image>
+    
+    <item>
+      <title>Geophysics and Thermodynamics at South Pole Lake Indicate Stability and a Regionally Thawed Bed</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Basal Roughness on Inland Thwaites Glacier Sliding</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096564/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096564/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hercules Dome | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/tag/hercules-dome/</link>
+      <atom:link href="http://localhost:1313/tag/hercules-dome/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hercules Dome</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>Hercules Dome</title>
+      <link>http://localhost:1313/tag/hercules-dome/</link>
+    </image>
+    
+    <item>
+      <title>Radar-Derived Crystal Orientation Fabric Suggests Dynamic Stability at the Summit of Hercules Dome</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

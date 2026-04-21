@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. L. Maclennan | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/author/m.-l.-maclennan/</link>
+      <atom:link href="http://localhost:1313/author/m.-l.-maclennan/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. L. Maclennan</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>M. L. Maclennan</title>
+      <link>http://localhost:1313/author/m.-l.-maclennan/</link>
+    </image>
+    
+    <item>
+      <title>Amundsen Sea Embayment accumulation variability measured with global navigation satellite system interferometric reflectometry</title>
+      <link>http://localhost:1313/publication/tc-19-713-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-19-713-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climatology and surface impacts of atmospheric rivers on West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-17-865-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-17-865-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

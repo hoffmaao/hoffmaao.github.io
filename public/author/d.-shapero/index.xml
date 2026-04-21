@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D. Shapero | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/author/d.-shapero/</link>
+      <atom:link href="http://localhost:1313/author/d.-shapero/index.xml" rel="self" type="application/rss+xml" />
+    <description>D. Shapero</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>D. Shapero</title>
+      <link>http://localhost:1313/author/d.-shapero/</link>
+    </image>
+    
+    <item>
+      <title>Brief communication: Heterogenous thinning and subglacial lake activity on Thwaites Glacier, West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-14-4603-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-14-4603-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

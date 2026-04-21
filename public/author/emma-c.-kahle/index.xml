@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emma C. Kahle | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/author/emma-c.-kahle/</link>
+      <atom:link href="http://localhost:1313/author/emma-c.-kahle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emma C. Kahle</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>Emma C. Kahle</title>
+      <link>http://localhost:1313/author/emma-c.-kahle/</link>
+    </image>
+    
+    <item>
+      <title>Geophysics and Thermodynamics at South Pole Lake Indicate Stability and a Regionally Thawed Bed</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

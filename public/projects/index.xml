@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/projects/</link>
+      <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+    </image>
+    
+    <item>
+      <title>Ice–Ocean Interactions</title>
+      <link>http://localhost:1313/projects/ice-ocean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ice-ocean/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;What systems you focus on (e.g., Thwaites, Amundsen Sea, Greenland fjords)&lt;/li&gt;
+&lt;li&gt;Key tools (swath radar, ocean moorings, coupled models)&lt;/li&gt;
+&lt;li&gt;Big questions (stability of grounding lines, feedbacks with circulation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also embed images, figures, or videos here in standard Markdown or HTML.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Radar &amp; Remote Sensing</title>
+      <link>http://localhost:1313/projects/radar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/radar/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ground-based and airborne radar systems&lt;/li&gt;
+&lt;li&gt;Crystal-orientation fabric, englacial reflectors, and basal topography&lt;/li&gt;
+&lt;li&gt;Satellite SAR, optical, and lidar datasets you use&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sea-Level Monitoring</title>
+      <link>http://localhost:1313/projects/sea-level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sea-level/</guid>
+      <description>&lt;p&gt;Describe the sea-level–focused work here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GNSS-IR, tide gauges, and satellite altimetry&lt;/li&gt;
+&lt;li&gt;Coastal subsidence and infrastructure monitoring&lt;/li&gt;
+&lt;li&gt;Links to relevant field sites and publications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

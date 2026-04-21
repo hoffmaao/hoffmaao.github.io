@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>N. Holschuh | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/author/n.-holschuh/</link>
+      <atom:link href="http://localhost:1313/author/n.-holschuh/index.xml" rel="self" type="application/rss+xml" />
+    <description>N. Holschuh</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>N. Holschuh</title>
+      <link>http://localhost:1313/author/n.-holschuh/</link>
+    </image>
+    
+    <item>
+      <title>Inland migration of near-surface crevasses in the Amundsen Sea Sector, West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-19-1353-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-19-1353-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radar-Derived Crystal Orientation Fabric Suggests Dynamic Stability at the Summit of Hercules Dome</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antarctic Bedmap data: Findable, Accessible, Interoperable, and Reusable (FAIR) sharing of 60 years of ice bed, surface, and thickness data</title>
+      <link>http://localhost:1313/publication/essd-15-2695-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/essd-15-2695-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

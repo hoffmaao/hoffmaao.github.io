@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Oceans and Cyrosphere Group</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>Oceans and Cyrosphere Group</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>Introducing the Oceans and Cryosphere Group at Rice University</title>
+      <link>http://localhost:1313/post/25-04-10-rice-position/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/25-04-10-rice-position/</guid>
+      <description>&lt;p&gt;The Oceans and Cryosphere Group at Rice University investigates how ice sheets, and oceans interact to shape our planet’s coastlines. Our research focuses on imaging the hidden landscapes at the grounding lines of the Antarctic and Greenland ice sheets, where glacier ice meets the ocean and drives both local and global change. We develop and deploy advanced radar systems and autonomous vehicles to image subglacial topography, measure vertical ice deformation, and monitor basal melt within ice-shelf cavities. By combining these observations with process-based ice-flow and ocean models, we study how internal ice properties, ocean heat content, and atmospheric forcing contribute to variability in melt rates, glacier discharge, and sea-level rise. Our group also explores how ice-sheet-driven sea-level changes intersect with societal vulnerability along coastlines, including in the U.S. Gulf Coast, where we apply terrestrial radar interferometry to monitor infrastructure, coastal erosion, and groundwater systems. Through interdisciplinary collaborations that span engineering, marine science, and climate modeling, we aim to build the tools and knowledge necessary to understand and adapt to coastal change in both polar and populated regions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amundsen Sea Embayment accumulation variability measured with global navigation satellite system interferometric reflectometry</title>
+      <link>http://localhost:1313/publication/tc-19-713-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-19-713-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inland migration of near-surface crevasses in the Amundsen Sea Sector, West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-19-1353-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-19-1353-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radar-Derived Crystal Orientation Fabric Suggests Dynamic Stability at the Summit of Hercules Dome</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A site for deep ice coring at West Hercules Dome: results from ground-based geophysics and modeling</title>
+      <link>http://localhost:1313/publication/fudge-hills-horlings-holschuh-christian-davidge-hoffman-o-connor-christianson-steig-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fudge-hills-horlings-holschuh-christian-davidge-hoffman-o-connor-christianson-steig-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antarctic Bedmap data: Findable, Accessible, Interoperable, and Reusable (FAIR) sharing of 60 years of ice bed, surface, and thickness data</title>
+      <link>http://localhost:1313/publication/essd-15-2695-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/essd-15-2695-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climatology and surface impacts of atmospheric rivers on West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-17-865-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-17-865-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://localhost:1313/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geophysics and Thermodynamics at South Pole Lake Indicate Stability and a Regionally Thawed Bed</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Estimation of Ice Sheet Vertical Velocity and Englacial Layer Geometry from Multipass Synthetic Aperture Radar Data</title>
+      <link>http://localhost:1313/publication/9974985/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/9974985/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Basal Roughness on Inland Thwaites Glacier Sliding</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096564/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096564/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>icepack: a new glacier flow modeling package in Python, version 1.0</title>
+      <link>http://localhost:1313/publication/gmd-14-4593-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gmd-14-4593-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brief communication: Heterogenous thinning and subglacial lake activity on Thwaites Glacier, West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-14-4603-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-14-4603-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glaciers and climate of the Upper Susitna basin, Alaska</title>
+      <link>http://localhost:1313/publication/essd-12-403-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/essd-12-403-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A low-cost autonomous rover for polar science</title>
+      <link>http://localhost:1313/publication/gi-8-149-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gi-8-149-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ice–Ocean Interactions</title>
+      <link>http://localhost:1313/projects/ice-ocean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ice-ocean/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;What systems you focus on (e.g., Thwaites, Amundsen Sea, Greenland fjords)&lt;/li&gt;
+&lt;li&gt;Key tools (swath radar, ocean moorings, coupled models)&lt;/li&gt;
+&lt;li&gt;Big questions (stability of grounding lines, feedbacks with circulation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also embed images, figures, or videos here in standard Markdown or HTML.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Radar &amp; Remote Sensing</title>
+      <link>http://localhost:1313/projects/radar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/radar/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ground-based and airborne radar systems&lt;/li&gt;
+&lt;li&gt;Crystal-orientation fabric, englacial reflectors, and basal topography&lt;/li&gt;
+&lt;li&gt;Satellite SAR, optical, and lidar datasets you use&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sea-Level Monitoring</title>
+      <link>http://localhost:1313/projects/sea-level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sea-level/</guid>
+      <description>&lt;p&gt;Describe the sea-level–focused work here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GNSS-IR, tide gauges, and satellite altimetry&lt;/li&gt;
+&lt;li&gt;Coastal subsidence and infrastructure monitoring&lt;/li&gt;
+&lt;li&gt;Links to relevant field sites and publications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

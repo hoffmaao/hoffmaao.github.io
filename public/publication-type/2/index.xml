@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Oceans and Cyrosphere Group</title>
+    <link>http://localhost:1313/publication-type/2/</link>
+      <atom:link href="http://localhost:1313/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_77bc890719776bc3.png</url>
+      <title>2</title>
+      <link>http://localhost:1313/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Amundsen Sea Embayment accumulation variability measured with global navigation satellite system interferometric reflectometry</title>
+      <link>http://localhost:1313/publication/tc-19-713-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-19-713-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inland migration of near-surface crevasses in the Amundsen Sea Sector, West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-19-1353-2025/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-19-1353-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radar-Derived Crystal Orientation Fabric Suggests Dynamic Stability at the Summit of Hercules Dome</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2023-jf-007588/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A site for deep ice coring at West Hercules Dome: results from ground-based geophysics and modeling</title>
+      <link>http://localhost:1313/publication/fudge-hills-horlings-holschuh-christian-davidge-hoffman-o-connor-christianson-steig-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fudge-hills-horlings-holschuh-christian-davidge-hoffman-o-connor-christianson-steig-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antarctic Bedmap data: Findable, Accessible, Interoperable, and Reusable (FAIR) sharing of 60 years of ice bed, surface, and thickness data</title>
+      <link>http://localhost:1313/publication/essd-15-2695-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/essd-15-2695-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climatology and surface impacts of atmospheric rivers on West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-17-865-2023/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-17-865-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geophysics and Thermodynamics at South Pole Lake Indicate Stability and a Regionally Thawed Bed</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096218/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Basal Roughness on Inland Thwaites Glacier Sliding</title>
+      <link>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096564/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/https-doi-org-10-1029-2021-gl-096564/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>icepack: a new glacier flow modeling package in Python, version 1.0</title>
+      <link>http://localhost:1313/publication/gmd-14-4593-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gmd-14-4593-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brief communication: Heterogenous thinning and subglacial lake activity on Thwaites Glacier, West Antarctica</title>
+      <link>http://localhost:1313/publication/tc-14-4603-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/tc-14-4603-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glaciers and climate of the Upper Susitna basin, Alaska</title>
+      <link>http://localhost:1313/publication/essd-12-403-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/essd-12-403-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A low-cost autonomous rover for polar science</title>
+      <link>http://localhost:1313/publication/gi-8-149-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/gi-8-149-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

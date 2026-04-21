@@ -75,12 +75,16 @@ document.addEventListener('DOMContentLoaded', function () {
     var ageEl = document.getElementById('my-age');
     if (ageEl) ageEl.textContent = age;
 
-    // Houston weather via wttr.in (no API key required)
-    fetch('https://wttr.in/Houston,Texas?format=%C')
-      .then(function(r) { return r.text(); })
-      .then(function(c) {
+    // Houston weather via wttr.in (no API key required).
+    // Use JSON format: wttr.in returns an HTML landing page to browser User-Agents
+    // when a plain-text format is requested, so parse j1 JSON instead.
+    fetch('https://wttr.in/Houston,Texas?format=j1')
+      .then(function(r) { return r.json(); })
+      .then(function(d) {
+        var cc = d && d.current_condition && d.current_condition[0];
+        var desc = cc && cc.weatherDesc && cc.weatherDesc[0] && cc.weatherDesc[0].value;
         var el = document.getElementById('weather-condition');
-        if (el && c.trim()) el.textContent = c.trim().toLowerCase();
+        if (el && desc && desc.trim()) el.textContent = desc.trim().toLowerCase();
       })
       .catch(function() { /* silently keep default if unavailable */ });
   }
